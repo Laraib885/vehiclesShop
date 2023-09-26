@@ -8,6 +8,7 @@ import Trending from './Components/Trending/Trending';
 import Sellers from './Components/Sellers/Sellers';
 import Footer from './Components/Footer/Footer';
 import Review from './Components/Review/Review';
+import Wallet from './Components/Wallet/Wallet';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
    <h1 className='title'>
     <Navbar/>
     <Home/>
+    <Wallet/>
     <Search/>
     <Trending/>
     <Sellers/>
